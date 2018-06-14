@@ -277,36 +277,21 @@ namespace RestfulAPITest
                 if (!taskException.CancellationToken.IsCancellationRequested)
                 {
                     result = @"Timeout expired trying to reach the server.";
-                    StopMonitoring(); // If an error occurred, the monitoring will stop.
-                    MessageBox.Show(result, @"Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
                 }
             }
             catch (HttpRequestException httpException)
             {
                 result = @"An error occurred during the transaction: " + httpException.Message;
-                StopMonitoring();
-                MessageBox.Show(result, @"Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
             }
             catch (Exception ex)
             {
                 result = @"An error occurred during the request: " + ex.Message;
-                StopMonitoring();
-                MessageBox.Show(result, @"Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
             }
 
             return result;
         }
 
-        /// <summary>
-        /// To prevent a cross-Threaded error, I invoke the perfomClick event of the start button
-        /// </summary>
-        private void StopMonitoring()
-        {
-            BeginInvoke(new Action(btnStart.PerformClick));
-        }
+       
 
         /// <summary>
         /// Open the report form
