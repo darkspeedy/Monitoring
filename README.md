@@ -32,7 +32,11 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Simple and easy to use.
+
+<p align="center">
+  <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/Choosing%20the%20intervals.PNG" />
+</p>
 
 Explain how to run the automated tests for this system
 
