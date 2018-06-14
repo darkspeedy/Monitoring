@@ -10,7 +10,7 @@ Once launched, click the Start button to begin the monitoring.
 ### Prerequisites
 
 * To be able to compile the code, you will need [Visual Studio 2017](https://www.visualstudio.com/downloads/?rr=https%3A%2F%2Fwww.google.ca%2F)
-* .NET Framework 4.6.1 or higher needs also to be installed on the local computer.
+* [.NET Framework 4.6.1](https://www.microsoft.com/en-ca/download/details.aspx?id=49982) or higher needs also to be installed on the local computer.
 
 ## Simple and easy to use. 
 
