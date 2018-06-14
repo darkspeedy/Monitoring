@@ -11,101 +11,50 @@ Once launched, click the button Start to begin the monitoring.
 
 If you want to compile the code, you will need [Visual Studio 2017](https://www.visualstudio.com/downloads/?rr=https%3A%2F%2Fwww.google.ca%2F)
 
-```
-Give examples
-```
+## Simple and easy to use. 
 
-### Installing
+*An interval field that tells your server what interval should be used between each request to the server.*
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Simple and easy to use.
-```
 <p align="center">
-  <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/Choosing%20the%20intervals.PNG" />
+  <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/Choosing_the_intervals.PNG" />
 </p>
-```
 
-```
+## Real-Time Status
+
+*A mouse hover over the dots give you the time the status is checked.*
+
 <p align="center">
   <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/Current_Status.png" />
 </p>
-```
 
-```
+
+## A summery of the monitoring.
+
+*The application gives an overview to the user of the time periods when the server was up and when it was down since the last time it was started.*
+
 <p align="center">
-  <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/Report.PNG />
+  <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/Report.PNG" />
 </p>
-```
 
-```
+
+## Accurate information
+
+*A mouse hover over the dots in the report window give you the date and time the status was checked.*
+
 <p align="center">
-  <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/CheckStatusDate.png" />
+  <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/CheckedStatusDate.png" />
 </p>
-```
-Explain how to run the automated tests for this system
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [LiveCharts](https://lvcharts.net/) - The cartesian Chart was used
+* [MetroFramework](https://thielj.github.io/MetroFramework/) - Dependency Management
+* [JSON](https://www.nuget.org/packages/newtonsoft.json/) - Used to parse JSON format
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Patrice AUGUSTIN** - *Initial work* - [Monitoring](https://github.com/darkspeedy/Monitoring)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
