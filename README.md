@@ -4,11 +4,12 @@ This C# application is monitoring one of a PaySafe test server. It main purposes
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Download or clone a copy of this application on your local computer. Once downloaded, browse to this path [Monitoring\RestfulAPITest\bin\Release\RestfulAPITest.exe](https://github.com/darkspeedy/Monitoring/blob/master/RestfulAPITest/bin/Release/RestfulAPITest.exe) to launch the executable.
+Once launched, click the button Start to begin the monitoring.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+If you want to compile the code, you will need [Visual Studio 2017](https://www.visualstudio.com/downloads/?rr=https%3A%2F%2Fwww.google.ca%2F)
 
 ```
 Give examples
@@ -36,6 +37,15 @@ End with an example of getting some data out of the system or using it for a lit
 
 <p align="center">
   <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/Choosing%20the%20intervals.PNG" />
+</p>
+<p align="center">
+  <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/Current_Status.png" />
+</p>
+<p align="center">
+  <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/Report.PNG />
+</p>
+<p align="center">
+  <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/CheckStatusDate.png" />
 </p>
 
 Explain how to run the automated tests for this system
