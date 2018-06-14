@@ -5,15 +5,16 @@ This C# application is monitoring one of a PaySafe test server. It main purposes
 ## Getting Started
 
 Download or clone a copy of this application on your local computer. Once downloaded, browse to this path [Monitoring\RestfulAPITest\bin\Release\RestfulAPITest.exe](https://github.com/darkspeedy/Monitoring/blob/master/RestfulAPITest/bin/Release/RestfulAPITest.exe) to launch the executable.
-Once launched, click the button Start to begin the monitoring.
+Once launched, click the Start button to begin the monitoring.
 
 ### Prerequisites
 
-If you want to compile the code, you will need [Visual Studio 2017](https://www.visualstudio.com/downloads/?rr=https%3A%2F%2Fwww.google.ca%2F)
+* To be able to compile the code, you will need [Visual Studio 2017](https://www.visualstudio.com/downloads/?rr=https%3A%2F%2Fwww.google.ca%2F)
+* .NET Framework 4.6.1 or higher needs also to be installed on the local computer.
 
 ## Simple and easy to use. 
 
-*An interval field that tells your server what interval should be used between each request to the server.*
+*An interval field that tells the server what interval should be used between each request to the server.*
 
 <p align="center">
   <img src="https://github.com/darkspeedy/Monitoring/blob/master/images/Choosing_the_intervals.PNG" />
@@ -28,7 +29,7 @@ If you want to compile the code, you will need [Visual Studio 2017](https://www.
 </p>
 
 
-## A summery of the monitoring.
+## A summary of the monitoring.
 
 *The application gives an overview to the user of the time periods when the server was up and when it was down since the last time it was started.*
 
@@ -37,7 +38,7 @@ If you want to compile the code, you will need [Visual Studio 2017](https://www.
 </p>
 
 
-## Accurate information
+## Accurate information.
 
 *A mouse hover over the dots in the report window give you the date and time the status was checked.*
 
